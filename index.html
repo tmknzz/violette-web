@@ -26,15 +26,34 @@
 
 <section id="features">
   <h2>主な機能 / Features</h2>
+
+  <h3>10 スロットのアクションパレット / 10-slot action palette</h3>
+  <p>⌥+数字（既定 ⌥1〜0）で呼び出せる10枠のテキストアクション。タイトル・プロンプト・使用する AI・ショートカットは各枠それぞれ変更できます。プリセットのまま使ってもいいし、自分の書き方に合わせて丸ごと組み替えてもいい。</p>
+  <p class="en">Ten slots of text actions, each triggered by ⌥+number (default ⌥1–0). Each slot's title, prompt, AI provider, and shortcut are all editable. Use the defaults as-is, or reshape the whole palette around how you actually write.</p>
+
   <ul class="features">
-    <li><span class="kbd">⌥1</span>誤字修正 (Fix typos) — 送信前に軽く整える</li>
-    <li><span class="kbd">⌥2</span>丁寧に (Polite tone) — カジュアルな文をビジネス調に</li>
-    <li><span class="kbd">⌥3</span>要約 (Summarize) — 長文を短く</li>
-    <li><span class="kbd">⌥4</span>返信下書き (Draft reply) — 受信文への返信案</li>
-    <li><span class="kbd">⌥9</span>Violette IM — IME オフのまま打ってしまったローマ字を日本語に変換（中国語 pinyin / 韓国語 QWERTY / ベトナム語も対応）</li>
-    <li>Autocomplete (Beta) — 入力中に続きを提案。まだ最適化途中の実験機能です。</li>
+    <li><span class="kbd">⌥1</span>Fix Typos — 誤字だけを直す（無料枠）</li>
+    <li><span class="kbd">⌥2</span>お客様向けに — 社内向けの文をお客様向けの丁寧なトーンに</li>
+    <li><span class="kbd">⌥3</span>Organize Logically — 話の順番を整えて読みやすく</li>
+    <li><span class="kbd">⌥4</span>Soften Tone — 強すぎる言い回しを柔らかく</li>
+    <li><span class="kbd">⌥5</span>Natural English — 自分の英語を自然な英語に</li>
+    <li><span class="kbd">⌥6</span>Draft Reply — もらった文への返事を書く</li>
+    <li><span class="kbd">⌥7</span>Summarize — 長い文を短く</li>
+    <li><span class="kbd">⌥8</span>Extract Tasks — 文中の TODO を箇条書きに抽出</li>
+    <li><span class="kbd">⌥9</span>Violette IM — IME オフのまま打ったローマ字を日本語に（中国語 pinyin / 韓国語 QWERTY / ベトナム語も対応・無料枠）</li>
+    <li><span class="kbd">⌥0</span>LinkedIn Speaking — LinkedIn 用の落ち着いた文体で書き直す</li>
   </ul>
-  <p class="en">Text actions triggered by ⌥+number in any text field. Multiple AI providers supported (Apple Intelligence, OpenAI, Anthropic, local MLX).</p>
+
+  <h3>その他 / Also included</h3>
+  <ul class="features">
+    <li><strong>文体抽出</strong> (Style extraction) — 送信済みメールなどを数通貼ると、固有名詞を除いた書き癖だけを抽出。以降のアクションと Autocomplete に反映されます（お手本は抽出後にクリア）</li>
+    <li><strong>Autocomplete (Beta)</strong> — 入力中に続きを提案。まだ最適化途中の実験機能です</li>
+  </ul>
+
+  <p class="en">Also included: <strong>Style extraction</strong> (sample your past writing so actions match your voice) and <strong>Autocomplete (Beta)</strong> (inline suggestions while you type — still experimental).</p>
+
+  <p style="margin-top:1.5rem">選べる AI プロバイダ: Apple Intelligence（macOS 26 以降）／ OpenAI ／ Anthropic ／ ローカル MLX モデルなど。アクションごとに使う AI を変えられます。</p>
+  <p class="en">AI providers you can pick from: Apple Intelligence (macOS 26+), OpenAI, Anthropic, local MLX models, and more. Each action can use a different provider.</p>
 </section>
 
 <section id="pricing">
