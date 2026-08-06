@@ -42,7 +42,8 @@ ul { padding-left: 1.5rem; }
 ul.features { list-style: none; padding: 0; }
 ul.features li { padding: 0.9rem 0; border-bottom: 1px solid var(--border); }
 ul.features li:last-child { border-bottom: none; }
-ul.features .kbd { display: inline-block; padding: 0.15rem 0.5rem; background: var(--accent-soft); color: var(--accent); border-radius: 4px; font-family: ui-monospace, SFMono-Regular, monospace; font-size: 0.9em; margin-right: 0.4rem; }
+.kbd { display: inline-block; padding: 0.15rem 0.5rem; background: var(--accent-soft); color: var(--accent); border-radius: 4px; font-family: ui-monospace, SFMono-Regular, monospace; font-size: 0.9em; margin-right: 0.4rem; }
+.demo-video { display: block; width: 100%; max-width: 340px; margin: 1.25rem auto 0; border: 1px solid var(--border); border-radius: 12px; background: var(--card); }
 .price-grid { display: grid; grid-template-columns: 1fr; gap: 1rem; margin-top: 1rem; }
 @media (min-width: 560px) { .price-grid { grid-template-columns: 1fr 1fr; } }
 .price-card { background: var(--card); border: 1px solid var(--border); border-radius: 12px; padding: 1.25rem; }
