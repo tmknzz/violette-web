@@ -1,18 +1,29 @@
-<?xml version="1.0" standalone="yes"?><!-- sparkle-sign-warning:
+<?xml version="1.0" standalone="yes"?>
+<!-- sparkle-sign-warning:
 IMPORTANT: This file was signed by Sparkle. Any modifications to this file requires re-signing this file with generate_appcast or sign_update! The signed signature will be embedded at the end of this file.
---><rss xmlns:sparkle="http://www.andymatuschak.org/xml-namespaces/sparkle" version="2.0">
+-->
+<rss xmlns:sparkle="http://www.andymatuschak.org/xml-namespaces/sparkle" version="2.0">
     <channel>
         <title>Violette</title>
+        <item>
+            <title>1.0.1</title>
+            <pubDate>Wed, 30 Sep 2026 20:58:18 +0900</pubDate>
+            <sparkle:version>100000289</sparkle:version>
+            <sparkle:shortVersionString>1.0.1</sparkle:shortVersionString>
+            <sparkle:minimumSystemVersion>14.0</sparkle:minimumSystemVersion>
+            <enclosure url="https://github.com/tmknzz/violette-web/releases/download/v1.0.1/Violette.zip" length="15111572" type="application/octet-stream" sparkle:edSignature="7yeh8uXZrtjS/H+Gh3cwqhuR2xjyGEkA4RA2pECrsQBts6UgeWCwVaUcH76cWUMH1dBMCF5nJGY47nNzpPecCQ=="/>
+        </item>
         <item>
             <title>1.0</title>
             <pubDate>Tue, 29 Sep 2026 18:13:20 +0900</pubDate>
             <sparkle:version>100000286</sparkle:version>
             <sparkle:shortVersionString>1.0</sparkle:shortVersionString>
             <sparkle:minimumSystemVersion>14.0</sparkle:minimumSystemVersion>
-            <enclosure url="https://github.com/tmknzz/violette-web/releases/download/v1.0/Violette.zip" length="15111587" type="application/octet-stream" sparkle:edSignature="TJbk5+A9v4d3pjQziK6VSp4SbLCICgBdQ/6euIvO0Sx1FKIhN4+09sjFVd36PCG/DPsNgeQ1dNVtF1j9+bB8DQ=="></enclosure>
+            <enclosure url="https://github.com/tmknzz/violette-web/releases/download/v1.0/Violette.zip" length="15111587" type="application/octet-stream" sparkle:edSignature="TJbk5+A9v4d3pjQziK6VSp4SbLCICgBdQ/6euIvO0Sx1FKIhN4+09sjFVd36PCG/DPsNgeQ1dNVtF1j9+bB8DQ=="/>
         </item>
     </channel>
-</rss><!-- sparkle-signatures:
-edSignature: s2EjV4h1zpxtdGfdC5ZbGw/mqcRYEn5cVKD6hUv0qojmX42/tyVG0BM8Dt4/nv4pyDLDnlVVOgGWJjXDyQvEDA==
-length: 1040
+</rss>
+<!-- sparkle-signatures:
+edSignature: Nx8PlnaQ9o+VqqVBQ4MOLP/4meojWd4EGQ3BCyHxErgU67CrLOagFdLrEe4gwOWQwWIeUCEUEvCTKlfTL9jkAA==
+length: 1638
 -->
